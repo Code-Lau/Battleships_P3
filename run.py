@@ -12,7 +12,7 @@ def welcome():
     print("Welcome to Battleships!")
     print("Your goal is to sink the enemy ship,")
     print("This is done by typing a row and a column letter.")
-    print("If a ship is hit, an 'x' will be shown.")
+    print("If a ship is hit, an 'X' will be shown.")
     print("If you miss, a '-' will be shown.")
 
 def print_board(board):
