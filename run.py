@@ -42,9 +42,7 @@ letters_to_numbers = {
 
 def create_ships(board):
     for ship in range(5):
-        ship_row,
-        ship_column = randint(0, 7),
-        randint(0, 7)
+        ship_row, ship_column = randint(0, 7), randint(0, 7)
         while board[ship_row][ship_column] == "X":
             ship_row, ship_column = get_ship_location()
         board[ship_row][ship_column] = "X"
@@ -72,10 +70,11 @@ def count_hit_ships(board):
         for column in row:
             if column == "X":
                 count += 1
-    return count if __name__ == "__main__":
-        create_ships(HIDDEN_BOARD)
-        turns = 10
-    while turns > 0:
+    
+create_ships(HIDDEN_BOARD)
+    
+turns = 10
+while turns > 0:
         print('Guess a battleship location.')
         print_board(GUESS_BOARD)
         row, column = get_ship_location()
@@ -86,7 +85,7 @@ def count_hit_ships(board):
             GUESS_BOARD[row][column] = "X"
             turns -= 1
         else:
-            print("MISS!")
+            print("Miss!")
             GUESS_BOARD[row][column] = "-"
             turns -= 1
         if count_hit_ships(GUESS_BOARD) == 5:
@@ -94,4 +93,4 @@ def count_hit_ships(board):
             break
         print("You have " + str(turns) + " turns left")
         if turns == 0:
-            print("You ran out of turns")
+            print("Game over!")
