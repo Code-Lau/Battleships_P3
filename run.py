@@ -1,22 +1,13 @@
 # How to Code B.S. in Python (https://www.youtube.com/watch?v=tF1WRCrd_HQ)
 from random import randint
-import os
 
-# Board for the ship locations
-HIDDEN_BOARD = [[" "] * 8 for x in range(8)]
-# Board for tracking hits/misses
-GUESS_BOARD = [[" "] * 8 for i in range(8)]
-
-
-def welcome():
-    os.system('clear')
+class main():
     print("Welcome to Battleships!")
-    print("Your goal is to sink the enemy ship,")
+    print("Your goal is to sink the enemy ship through guesswork!")
     print("This is done by typing a row and a column letter.")
     print("If a ship is hit, an 'X' will be shown.")
     print("If you miss, a '-' will be shown.")
-
-
+    
 def print_board(board):
     print("  A B C D E F G H")
     print("  +-+-+-+-+-+-+-+")
@@ -25,6 +16,13 @@ def print_board(board):
         print("%d|%s|" % (row_number, "|".join(row)))
         row_number += 1
 
+# Board for the ship locations
+
+HIDDEN_BOARD = [[" "] * 8 for x in range(8)]
+
+# Board for tracking hits/misses
+
+GUESS_BOARD = [[" "] * 8 for i in range(8)]
 
 letters_to_numbers = {
     'A': 0,
@@ -51,11 +49,11 @@ def create_ships(board):
 
 
 def get_ship_location():
-    row = input("Enter the row of the ship: ").upper()
+    row = input("Enter the column of the ship: ").upper()
     while row not in "12345678":
         print('Please select a valid row')
         row = input("Enter the row of the ship: ").upper()
-    column = input("Enter the column of the ship: ").upper()
+    column = input("Enter the row of the ship: ").upper()
     while column not in "ABCDEFGH":
         print('Please select a valid column')
         column = input("Enter the column of the ship: ").upper()
@@ -81,7 +79,7 @@ while turns > 0:
         if GUESS_BOARD[row][column] == "-":
             print("This spot has been checked already.")
         elif HIDDEN_BOARD[row][column] == "X":
-            print("Hit")
+            print("Hit!")
             GUESS_BOARD[row][column] = "X"
             turns -= 1
         else:
@@ -94,3 +92,6 @@ while turns > 0:
         print("You have " + str(turns) + " turns left")
         if turns == 0:
             print("Game over!")
+
+if __name__ == '__main__':
+    main()
