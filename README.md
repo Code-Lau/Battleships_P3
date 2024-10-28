@@ -1,5 +1,7 @@
 # [BATTLESHIPS](https://code-lau.github.io/battleships-code-lau)
 
+[Deployed App Available Here](https://battleships-code-lau-4e469f63a8e0herokuapp.com/)
+
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Code-Lau/battleships-code-lau)](https://github.com/Code-Lau/battleships-code-lau/commits/main)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Code-Lau/battleships-code-lau)](https://github.com/Code-Lau/battleships-code-lau/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Code-Lau/battleships-code-lau)](https://github.com/Code-Lau/battleships-code-lau)
@@ -65,7 +67,7 @@ For this project, I used gitpod and Visual Studio Code to code in. Github was us
 - [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
 - [![JavaScript](https://img.shields.io/badge/JavaScript-grey?logo=javascript&logoColor=F7DF1E)](https://www.javascript.com) used for user interaction on the site.
-- [![Python](https://img.shields.io/pypi/pyversions/:packageName)](https://www.python.org/) used for the main body of the game.
+- [![Python](https://img.shields.io/badge/Python%20-grey?logo=python&logoColor=000000)](https://www.python.org/) used for the main body of the game.
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site
 
 
@@ -74,7 +76,7 @@ For testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Deployment
 
-The site was deployed to Heroku through an app hosted by them. The working app can be found [here.](https://battleships-code-lau-4e469f63a8e0.herokuapp.com/) It is also deployed to GithubPages, but as it is a python application, only the README appears.
+The site was deployed to Heroku through an app hosted by them. The working app can be found [here.](https://battleships-code-lau-4e469f63a8e0herokuapp.com/) It is also deployed to GithubPages, but as it is a python application, only the README appears.
 
 ### Local Deployment
 
