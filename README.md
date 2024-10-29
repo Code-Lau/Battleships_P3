@@ -1,10 +1,11 @@
 # [BATTLESHIPS](https://code-lau.github.io/battleships-code-lau)
 
-[Deployed App Available Here](https://battleships-code-lau-4e469f63a8e0herokuapp.com/)
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Code-Lau/battleships-code-lau)](https://github.com/Code-Lau/battleships-code-lau/commits/main)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Code-Lau/battleships-code-lau)](https://github.com/Code-Lau/battleships-code-lau/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Code-Lau/battleships-code-lau)](https://github.com/Code-Lau/battleships-code-lau)
+
+[Deployed App Available Here](https://battleships-code-lau-4e469f63a8e0herokuapp.com/)
 
 Battleships is a python console game based on the original Battleship game. Battleship was originally a two player guessing game, where each player would choose where to place their ships on a 9x11 grid and make guesses to hit the other players ship.
 
@@ -14,6 +15,8 @@ Here is a demonstration of responsiveness, done through [Am I Responsive?](https
 
 ## UX
 This game is presented entirely through the python console, and as such doesn't have any graphics or user interface. However, an effort was made to visualise the game for the player by arranging the rows and columns in a way that represents the board.
+
+![screenshot](assets/documentation/board.png)
 
 ## Features
 
@@ -39,7 +42,7 @@ A miss
 
 A hit
 
-![screenshot]()
+![screenshot](assets/documentation/boardhit.png)
 
 Invalid data
 
@@ -52,9 +55,11 @@ Game over
 ### Future Features
 
 **Multiplayer**
+
 If possible, I would love to implement a way for two users to play together.
 
 **Better graphics**
+
 I would like to make actual graphics for a project like this for a better user experience.
 
 ## Tools & Technologies Used
@@ -62,13 +67,14 @@ For this project, I used gitpod and Visual Studio Code to code in. Github was us
 
 - [![Markdown Builder](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://tim.2bn.dev/markdown-builder) used to generate README and TESTING templates.
 - [![Git](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+
 - [![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com) used for secure online code storage.
 - [![Gitpod](https://img.shields.io/badge/Gitpod-grey?logo=gitpod&logoColor=FFAE33)](https://gitpod.io) used as a cloud-based IDE for development.
-- [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) used for the main site content.
-- [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [![JavaScript](https://img.shields.io/badge/JavaScript-grey?logo=javascript&logoColor=F7DF1E)](https://www.javascript.com) used for user interaction on the site.
-- [![Python](https://img.shields.io/badge/Python%20-grey?logo=python&logoColor=000000)](https://www.python.org/) used for the main body of the game.
+- [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) used for site functionality.
+- [![JavaScript](https://img.shields.io/badge/JavaScript-grey?logo=javascript&logoColor=F7DF1E)](https://www.javascript.com) used for site functionality.
+- [![Python](https://img.shields.io/badge/Python%20-grey?logo=python&logoColor=222222)](https://www.python.org/) used for the main body of the game.
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site
+- [![Heroku](https://img.shields.io/badge/Heroku-grey?logo=heroku&logoColor=222222)](https://heroku.com) used to host the application.
 
 
 ## Testing
@@ -120,7 +126,8 @@ All code referenced does not belong to me, and is borrowed expressly for learnin
 | Source | Content | Location |
 | --- | --- | --- |
 | [How to Code Battleships in Python](https://www.youtube.com/watch?v=tF1WRCrd_HQ) | Help with coding the game  | Youtube |
-| []() | Help with  | Youtube |
+| [Helen Beatriz's Battleships Project](https://github.com/helenbeatriz/P3-Battleship) | Help with understanding the format | Youtube |
+| [Jorrit Willaert's Battleships Project](https://github.com/JorritWillaert/PythonBattleshipGame) | Help with understanding how to code the game | Youtube |
 
 ## Acknowledgements
 - I would like to thank my (very cool) Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
