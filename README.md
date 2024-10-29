@@ -5,7 +5,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/Code-Lau/battleships-code-lau)](https://github.com/Code-Lau/battleships-code-lau/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Code-Lau/battleships-code-lau)](https://github.com/Code-Lau/battleships-code-lau)
 
-[Deployed App Available Here](https://battleships-code-lau-4e469f63a8e0herokuapp.com/)
+[Deployed App Available Here](https://battleships-code-lau-4e469f63a8e0.herokuapp.com/)
 
 Battleships is a python console game based on the original Battleship game. Battleship was originally a two player guessing game, where each player would choose where to place their ships on a 9x11 grid and make guesses to hit the other players ship.
 
@@ -82,7 +82,7 @@ For testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Deployment
 
-The site was deployed to Heroku through an app hosted by them. The working app can be found [here.](https://battleships-code-lau-4e469f63a8e0herokuapp.com/) It is also deployed to GithubPages, but as it is a python application, only the README appears.
+The site was deployed to Heroku through an app hosted by them. The working app can be found [here.](https://battleships-code-lau-4e469f63a8e0.herokuapp.com/) It is also deployed to GithubPages, but as it is a python application, only the README appears.
 
 ### Local Deployment
 
